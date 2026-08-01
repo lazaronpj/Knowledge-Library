@@ -2,7 +2,7 @@ package br.com.lazaro.bibliotecasaber.dto;
 
 import java.time.LocalDate;
 
-public class Emprestimo {
+public class EmprestimoDTO {
 	
 	private int idEmprestimo;
 	private int idLivro;
@@ -10,10 +10,10 @@ public class Emprestimo {
 	private LocalDate dataRetirada;
 	private LocalDate dataDevolucao;
 	
-	public Emprestimo() {
+	public EmprestimoDTO() {
 	}
 	
-	public Emprestimo(int idEmprestimo, int idLivro, int idUsuario, LocalDate dataRetirada, LocalDate dataDevolucao) {
+	public EmprestimoDTO(int idEmprestimo, int idLivro, int idUsuario, LocalDate dataRetirada, LocalDate dataDevolucao) {
 		this.idEmprestimo = idEmprestimo;
 		this.idLivro = idLivro;
 		this.idUsuario = idUsuario;

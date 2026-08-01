@@ -1,6 +1,6 @@
 package br.com.lazaro.bibliotecasaber.dto;
 
-public class Usuario {
+public class UsuarioDTO {
 
 	private int idUsuario;
 	private String nome;
@@ -8,10 +8,10 @@ public class Usuario {
 	private String senha;
 	private String telefone;
 	
-	public Usuario() {
+	public UsuarioDTO() {
 	}
 	
-	public Usuario(int idUsuario, String nome, String email, String senha, String telefone) {
+	public UsuarioDTO(int idUsuario, String nome, String email, String senha, String telefone) {
 		this.idUsuario = idUsuario;
 		this.nome = nome;
 		this.email = email;

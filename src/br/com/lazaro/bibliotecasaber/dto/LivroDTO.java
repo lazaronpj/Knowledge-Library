@@ -1,6 +1,6 @@
 package br.com.lazaro.bibliotecasaber.dto;
 
-public class Livro {
+public class LivroDTO {
 
 	private int idLivro;
 	private String titulo;
@@ -8,10 +8,10 @@ public class Livro {
 	private int anoPublicacao;
 	private String resumo;
 	
-	public Livro() {
+	public LivroDTO() {
 	}
 	
-	public Livro(int idLivro, String titulo, String autor, int anoPublicacao, String resumo) {
+	public LivroDTO(int idLivro, String titulo, String autor, int anoPublicacao, String resumo) {
 		this.idLivro = idLivro;
 		this.titulo = titulo;
 		this.autor = autor;
